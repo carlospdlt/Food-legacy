@@ -81,7 +81,7 @@ h5 {
 }
 
 a {
-    color: #FF5700;
+    color: #DB8724;
     text-decoration: none;
     -webkit-transition: 0.2s opacity;
     transition: 0.2s opacity;
@@ -91,7 +91,7 @@ a:hover, a:focus {
     text-decoration: none;
     outline: none;
     opacity: 0.8;
-    color: #FCFCFF;
+    color: #DB8724;
 }
 
 .main-color {
@@ -192,7 +192,7 @@ ul, ol {
   	display:block;
   	height:4px;
   	width:40px;
-  	background-color: #6195FF;
+  	background-color: #DB8724;
     margin-top: 20px;
 }
 
@@ -206,7 +206,7 @@ input[type="text"], input[type="email"], input[type="password"], input[type="num
     height: 40px;
     width: 100%;
     border: none;
-	  background: #F4F4F4;
+	  background: #DB8724;
     border-bottom: 2px solid #EEE;
     color: #354052;
     padding: 0px 10px;
@@ -250,8 +250,8 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 
 .outline-btn {
     background: transparent;
-    color: #DB8724 !important;
-    border-color: #DB8724;
+    color: #354052 !important;
+    border-color: #354052;
 }
 
 .main-btn:hover, .white-btn:hover, .outline-btn:hover {
@@ -270,6 +270,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 .navbar-brand .logo, .navbar-brand .logo-alt {
     max-height: 50px;
     display: block;
+    color: #DB8724
 }
 
 #nav:not(.nav-transparent):not(.fixed-nav) .navbar-brand .logo-alt {
@@ -300,7 +301,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 
 #nav {
     padding: 10px 0px;
-    background: #FFF;
+    background: #354052;
     -webkit-transition: 0.2s padding;
     transition: 0.2s padding;
     z-index: 999;
@@ -317,12 +318,13 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
     left: 0;
     right: 0;
     padding: 0px 0px;
-    background-color: #FFF !important;
-    border-bottom: 1px solid #EEE;
+    background-color: #354052 !important;
+    border-bottom: 1px solid #354052;
 }
 
 #nav.nav-transparent {
     background: transparent;
+    background-color: #354052
 }
 
 
@@ -346,12 +348,12 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
     }
     .main-nav>li>a:hover, .main-nav>li>a:focus, .main-nav>li.active>a {
         background: transparent;
-        color: #6195FF;
+        color: #DB8724;
     }
     .main-nav>li>a:after {
         content: "";
         display: block;
-        background-color: #6195FF;
+        background-color: #DB8724;
         height: 2px;
         width: 0%;
         -webkit-transition: 0.2s width;
@@ -380,7 +382,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
         position: absolute;
         right: -50%;
         top: 0;
-        background-color: #6195FF;
+        background-color: #DB8724;
         width: 200px;
         -webkit-box-shadow: 0px 5px 5px -5px rgba(53, 64, 82, 0.2);
         box-shadow: 0px 5px 5px -5px rgba(53, 64, 82, 0.2);
@@ -471,7 +473,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
         border-left: 6px solid #6195FF;
     }
     .main-nav li a:hover, .main-nav li a:focus {
-        background-color: #6195FF;
+        background-color: #DB8724;
         color: #FFF;
         opacity: 1;
     }
@@ -679,6 +681,7 @@ header {
 
 .work>img {
   width: 100%;
+  border-radius: 50%;
 }
 
 .work .overlay {
@@ -693,6 +696,7 @@ header {
     transition: 1.2s opacity;
     -webkit-transition-delay: 0.2s;
     transition-delay: 0.2s;
+    border-radius: 50%;
 }
 
 .work:hover .overlay {
@@ -1032,6 +1036,7 @@ header {
 
 .team-img>img {
   width: 100%;
+  border-radius: 50%;
 }
 
 .team .overlay {
@@ -1074,7 +1079,7 @@ header {
 }
 
 .team:hover .team-content span {
-    color: #6195FF;
+    color: #DB8724;
 }
 
 .team .team-social {
@@ -1125,7 +1130,7 @@ header {
 }
 
 .blog .blog-meta li i {
-    color: #6195FF;
+    color: #DB8724;
     margin-right: 5px;
 }
 
@@ -1163,12 +1168,12 @@ header {
 
 .blog-tags a:hover {
   color: #FFF;
-  background-color: #6195FF;
+  background-color: #DB8724;
 }
 
 .blog-tags a i {
     margin-right: 3px;
-    color: #6195FF;
+    color: #DB8724;
 }
 
 .blog-tags a:hover i {
@@ -1216,7 +1221,7 @@ header {
     border-radius: 3px;
     margin-left: 5px;
     color: #FFF;
-    background-color: #6195FF;
+    background-color: #DB8724;
 }
 
 /* -- blog comments -- */
@@ -1269,11 +1274,11 @@ header {
 
 .blog-comments .media.author {
     background-color: #F4F4F4;
-    border-color: #6195FF;
-    border-bottom: 1px solid #6195FF;
+    border-color: #DB8724;
+    border-bottom: 1px solid #DB8724;
 }
 .blog-comments .media.author>.media-body>.media-heading {
-    color: #6195FF;
+    color: #DB8724;
 }
 
 .blog-comments .media.author + .media {
@@ -1350,11 +1355,11 @@ header {
 
 .widget-category a span {
     float: right;
-    color: #6195FF;
+    color: #DB8724;
 }
 
 .widget-category a:hover {
-    color: #6195FF;
+    color: #DB8724;
 }
 
 /* -- tags sidebar -- */
@@ -1425,7 +1430,7 @@ header {
 
 .contact i {
     font-size: 36px;
-    color: #6195FF;
+    color: #DB8724;
     margin-bottom: 20px;
 }
 
@@ -1482,7 +1487,7 @@ header {
   line-height: 50px;
   text-align: center;
   border-radius: 3px;
-  background-color: #6195FF;
+  background-color: #DB8724;
   color:#FFF;
 }
 
